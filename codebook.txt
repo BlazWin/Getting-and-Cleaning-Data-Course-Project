@@ -1,0 +1,20 @@
+Analysis description
+====================
+This analysis uses "Human Activity Recognition Using Smartphones Dataset", Version 1.0. It can be found here https://sites.google.com/site/harsmartlab. 
+
+First please familiarize youself with README.txt that can be found as a part of dataset. It contains a lot of useful information, variables description and so on.
+
+Goal of this analysis can be summarisize in 3 steps:
+1. Merge test and train data.
+2. Filter out everything except for mean and standart deviation measurements.
+3. For each subject, action and measurement type find average.
+
+Result is writen to data_sum.csv file.
+
+Output dataset description
+==========================
+data_sum.csv will have following columns:
+subject - Subject who performed the activity. Range is from 1 to 30.
+action - Action label taken from "activity_labels.txt" file.
+variable - One of features from "features.txt" file.
+mean_value - Mean variable value for current subject and action. Same units as original dataset

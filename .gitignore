@@ -6,8 +6,15 @@
 *-Ex.R
 
 # RStudio files
+*.Rproj
 .Rproj.user/
 
 # produced vignettes
 vignettes/*.html
 vignettes/*.pdf
+.Rproj.user
+
+# project specific
+data
+README.html
+data_sum.csv
