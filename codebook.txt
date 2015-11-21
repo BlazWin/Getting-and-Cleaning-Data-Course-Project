@@ -9,7 +9,7 @@ Goal of this analysis can be summarisize in 3 steps:
 2. Filter out everything except for mean and standart deviation measurements.
 3. For each subject, action and measurement type find average.
 
-Result is writen to data_sum.csv file.
+Result is writen to data_sum.txt file.
 
 Output dataset description
 ==========================

@@ -29,4 +29,4 @@ data_sum <- data_long %>% group_by(subject, activity, variable) %>%
     summarise(mean_value = mean(value))
 stopifnot(30 * 66 * 6 == nrow(data_sum))
     
-write.table(data_sum, file = "data_sum.csv", row.names = F, sep = ",")
+write.table(data_sum, file = "data_sum.txt", row.names = F, sep = ",")
